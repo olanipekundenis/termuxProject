@@ -1,0 +1,10 @@
+These are the steps I used at uploading to github from termux:
+
+1. I generated a PAT
+2. I input the PAT on .git/config at the remote origin section as thus
+    https://ghp_mygeneratedPAT@github.com/olanipekundenis/termuxProject
+3. Then I use this command 'git push --set-upstream origin master' giving 
+    to me after I ran git status. This command is used for saving the setup
+4. Then I proceeded to use the ascp-film which are regular git commands
+    in my home directory. Caveat if you try to write to a dir u dnt have +w
+    power it wont accept it, so ways use your home dir in termux
