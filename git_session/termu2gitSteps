@@ -1,4 +1,5 @@
-This are the steps I used at uploading to github from termux:
+These
+are the steps I used at uploading to github from termux:
 
 1. I generated a PAT
 2. I input the PAT on .git/config at the remote origin section as thus
